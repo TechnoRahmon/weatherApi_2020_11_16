@@ -1,0 +1,108 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+.App {
+  text-align: left;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  margin-top:50px;
+  font-family: 'Cinzel', serif;
+
+}
+
+
+
+.box{
+    padding:20px ;
+    margin: 10px 0px;
+    background-color: rgb(180, 180, 180);
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.search-box{
+  width:95%;
+  
+}
+.autocomplete-dropdown-container{
+  width:100%;
+  font-size: large;
+  font-family: 'Cinzel', serif;
+}
+
+.location-search-input{
+  width:100%;
+  height: 35px ;
+  padding-left: 10px;
+  font-size: large;
+  font-family: 'Cinzel', serif;
+
+
+}
+.resualt-box {
+  margin-bottom: 40px;
+}
+
+.resualt-box h2{
+    margin:10px 0 7px 0;
+}
+.resualt-box h3{
+  margin:0;
+  font-size: medium;
+}
+.resualt-box p{
+  margin:15px 0px ; 
+}
+.location-search-input:focus{
+  outline: none;
+  border:1px solid rgb(51, 51, 255) ; 
+}
+
+.suggestion-item--active{
+  background-color: rgb(76, 76, 255);
+  color :#fff;
+   cursor: pointer;
+}
+
+.suggestion-item{
+  background-color: #ffffff;
+   cursor: pointer;
+}
+.item{
+  padding:10px; 
+  margin-bottom:5px;
+}
+
+.temp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+table{
+  margin:auto 0;
+  background-color: #fff;
+  width:100%;
+}
+
+td,th{
+  margin-bottom: 15px;
+  padding:10px;
+  border-bottom:1px solid rgb(54, 54, 54);
+
+}
+td{
+  text-align: center;
+
+}
+
+span{
+  margin-bottom:10px;
+}
