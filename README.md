@@ -1,4 +1,4 @@
-# Weather api
+# Weather api using Reactjs
 
 this project using geocoding api and places api from google map javascript api.
 and then uses openweathermap api to fetch the weather information.
